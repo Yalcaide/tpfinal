@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto Mono", monospace;
+            background-color: black;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; }
+  form {
+    color: rgb(11, 235, 11);
+  }
+       nav ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        height: 52px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+       } 
+       nav a {
+        color: red;
+        padding: 10px 40px;
+        border: 1px cyan solid;
+       }
+       #logo{
+        position: absolute;
+        left: 10px;
+        background-color: unset;
+       }
+       nav img {
+        height: 28px;
+       }
+       main {
+        display: flex;
+        color: rgb(11, 235, 11);
+       }
+       .feed {
+       
+        width: 70%;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+        }
+       a {
+        color: red;
+       }
+       .feed li {
+        display: inline-block;
+       }
+       .feed img {
+        border: rgb(11,235,11) double 3px;
+        width: 300px;
+
+       }
+       aside {
+        width: 30%;
+       }
+       aside ul {
+        list-style: none;
+       }
+       aside img {
+        height: 70px;
+       }
+       main {
+        padding-left: 10%;
+       }
+       input {
+        color: rgb(11, 235, 11);
+       }
+       .contacto {
+        margin-top: 5%;
+        border: 5px rgb(11, 235, 11) double;
+        margin-right: 1%;
+       }
+       label {
+        font-size: 20px;
+       }
+       footer {  
+        display: flex;
+        color:rgb(11, 235, 11) ;
+        border: 3px double cyan;
+        margin-top: 5%;
+       }
+       .categorias  {
+        margin-left: 30%;
+       }
+       .categorias li {
+        list-style: none;
+       }
+       .volver  {
+        margin-left: 30%;
+       }
+       .volver li {
+        list-style: none;
+       }
+       
+       @media (max-width: 768px) {
+        nav ul {
+            
+            flex-direction: column;
+            height: 100%;
+            
+        }
+        .contacto {
+            align-items: center;
+            margin: 0;
+
+        }
+        #logo {
+            border: none;
+        }
+
+        nav a {
+            display: inline-block;
+            width: 100%;
+        }
+            main {
+                flex-direction: column;
+                justify-content: center;
+            }
+            .feed {
+                width: 100%;
+                
+            }
+            aside {
+                width: 100%;
+                order: -1;
+            }
+            footer {
+                justify-content: center;
+                flex-direction: column;
+            }
+            .mapa {
+                margin-left: 30%;
+            }
+            .mapa li {
+                list-style: none;
+            }
+            
+        }
